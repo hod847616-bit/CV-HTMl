@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Hồ Trí Dũng | UI/UX Designer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f1f5f9;
+      color: #334155;
+    }
+    .cv-container {
+      max-width: 1100px;
+      margin: 50px auto;
+      background: #ffffff;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      border-radius: 16px;
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .sidebar {
+      background-color: #0f172a;
+      color: #e2e8f0;
+      padding: 50px 35px;
+    }
+    .profile-img {
+      width: 190px;
+      height: 190px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #3b82f6;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .sidebar h3 {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #94a3b8;
+      border-bottom: 1px solid #334155;
+      padding-bottom: 8px;
+      margin-top: 35px;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    .contact-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+    }
+    .contact-item i {
+      width: 30px;
+      font-size: 1.1rem;
+      color: #3b82f6;
+    }
+    .skill-tag {
+      background-color: #1e293b;
+      color: #60a5fa;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      display: inline-block;
+      margin: 0 5px 8px 0;
+      border: 1px solid #334155;
+    }
+    .main-content {
+      padding: 50px 50px;
+      background-color: #ffffff;
+    }
+    .header-name {
+      color: #0f172a;
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 3rem;
+      letter-spacing: -1px;
+      margin-bottom: 5px;
+    }
+    .header-title {
+      color: #3b82f6;
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-bottom: 35px;
+      letter-spacing: 0.5px;
+    }
+    .section-title {
+      color: #0f172a;
+      text-transform: uppercase;
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-top: 40px;
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+    }
+    .section-title::after {
+      content: "";
+      flex: 1;
+      height: 2px;
+      background-color: #e2e8f0;
+      margin-left: 15px;
+    }
+    .text-justify {
+      text-align: justify;
+      line-height: 1.7;
+      color: #475569;
+    }
+    .timeline-item {
+      position: relative;
+      padding-left: 30px;
+      margin-bottom: 30px;
+      border-left: 2px solid #e2e8f0;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -7.5px;
+      top: 5px;
+      width: 13px;
+      height: 13px;
+      background-color: #ffffff;
+      border: 3px solid #3b82f6;
+      border-radius: 50%;
+    }
+    .timeline-date {
+      color: #3b82f6;
+      font-weight: 700;
+      font-size: 0.9rem;
+      margin-bottom: 5px;
+      background: #eff6ff;
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 20px;
+    }
+    .timeline-title {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #0f172a;
+      margin-top: 8px;
+    }
+    .timeline-subtitle {
+      font-style: normal;
+      font-weight: 500;
+      color: #64748b;
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+    }
+    .desc-list {
+      padding-left: 18px;
+      color: #475569;
+      line-height: 1.6;
+    }
+    .desc-list li {
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container cv-container px-0">
+  <div class="row g-0 w-100">
+
+    <div class="col-md-4 sidebar">
+      <div class="text-center">
+        <img src="image/Anhcute.png" alt="Hồ Trí Dũng" class="profile-img">
+      </div>
+
+      <h3>Liên hệ</h3>
+      <div class="contact-item"><i class="bi bi-telephone-fill"></i> 0971 911 206</div>
+      <div class="contact-item"><i class="bi bi-envelope-fill"></i> hod847616@gmail.com</div>
+      <div class="contact-item"><i class="bi bi-calendar-event-fill"></i> 31/03/2006</div>
+      <div class="contact-item"><i class="bi bi-geo-alt-fill"></i> TP. Cao Lãnh, Đồng Tháp</div>
+      <div class="contact-item"><i class="bi bi-linkedin"></i> /in/tri-dung-ho</div>
+
+      <h3>Kỹ năng chuyên môn</h3>
+      <div class="mb-3">
+        <span class="skill-tag">UI/UX Design</span>
+        <span class="skill-tag">Figma</span>
+        <span class="skill-tag">Wireframing</span>
+        <span class="skill-tag">Prototyping</span>
+      </div>
+      <div>
+        <span class="skill-tag">Bootstrap 5</span>
+        <span class="skill-tag">HTML/CSS</span>
+        <span class="skill-tag">C# / ASP.NET</span>
+        <span class="skill-tag">Git / GitHub</span>
+      </div>
+
+      <h3>Học vấn</h3>
+      <p class="fw-bold text-white mb-1">Đại học Đồng Tháp</p>
+      <p class="text-primary mb-2" style="color: #60a5fa !important;">Khoa học máy tính | 2024 - 2028</p>
+      <p class="small text-light" style="opacity: 0.8;">Nền tảng vững chắc về phát triển phần mềm, tư duy hệ thống và UI/UX. Có khả năng tự nghiên cứu công nghệ mới.</p>
+
+      <h3>Chứng chỉ</h3>
+      <p class="fw-bold text-white mb-0">Tiếng Anh B1</p>
+      <p class="small text-light" style="opacity: 0.8;">Cấp năm 2025</p>
+    </div>
+
+    <div class="col-md-8 main-content">
+      <h1 class="header-name">Hồ Trí Dũng</h1>
+      <div class="header-title">UI/UX Designer & Front-end</div>
+
+      <h2 class="section-title">Mục tiêu nghề nghiệp</h2>
+      <p class="text-justify">
+        Sở hữu tư duy thiết kế lấy người dùng làm trung tâm kết hợp với nền tảng kỹ thuật lập trình (Front-end & C#). Tôi tìm kiếm cơ hội thực tập vị trí UI/UX Designer để giải quyết các bài toán tối ưu hóa trải nghiệm người dùng. Mục tiêu của tôi là tạo ra các thiết kế không chỉ có tính thẩm mỹ cao mà còn mang tính khả thi khi triển khai code, phối hợp mượt mà với đội ngũ phát triển.
+      </p>
+
+      <h2 class="section-title">Dự án & Kinh nghiệm</h2>
+      
+      <div class="timeline-item">
+        <div class="timeline-date">2026 - Nay</div>
+        <div class="timeline-title">Hệ thống Quản lý Sân Cầu Lông (Java)</div>
+        <div class="timeline-subtitle">Vai trò: UI/UX Designer</div>
+        <p><strong>Mô tả:</strong> Nền tảng hỗ trợ chủ sân quản lý lịch đặt, thông tin khách hàng và doanh thu theo thời gian thực.</p>
+        <ul class="desc-list">
+          <li>Nghiên cứu luồng hành vi của người dùng (User Flow) để tối ưu hóa quy trình đặt sân từ 5 bước xuống còn 3 bước.</li>
+          <li>Xây dựng hệ thống Wireframe và Prototype chi tiết cho các màn hình chức năng chính, đảm bảo tính trực quan.</li>
+          <li>Đóng gói và bàn giao hệ thống UI Component chuẩn xác để đội ngũ lập trình Java triển khai dễ dàng.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">2026 - Nay</div>
+        <div class="timeline-title">Ứng dụng Quản lý Cửa Hàng Gà Rán (C# / ASP.NET)</div>
+        <div class="timeline-subtitle">Vai trò: UI/UX Designer & Front-end</div>
+        <p><strong>Mô tả:</strong> Hệ thống quản lý đơn hàng, sản phẩm và phân quyền người dùng (Admin/User) cho mô hình F&B.</p>
+        <ul class="desc-list">
+          <li>Thiết kế giao diện người dùng hiện đại, ứng dụng hệ thống lưới của <strong>Bootstrap 5</strong> để đảm bảo layout responsive trên nhiều thiết bị.</li>
+          <li>Phối hợp trực tiếp trên <strong>Git/GitHub</strong> với nhóm phát triển để tích hợp giao diện vào mô hình ASP.NET Web Forms.</li>
+          <li>Thiết kế các luồng cảnh báo bảo mật trực quan (phản hồi lỗi XSS, SQL Injection) giúp nâng cao trải nghiệm an toàn cho người dùng.</li>
+        </ul>
+      </div>
+
+      <h2 class="section-title">Hoạt động</h2>
+      <div class="timeline-item border-0 pb-0 mb-0">
+        <div class="timeline-date">2022 - Nay</div>
+        <div class="timeline-title">Cộng đồng Product & UX Vietnam</div>
+        <div class="timeline-subtitle">Thành viên tích cực</div>
+        <p class="mb-0">Thường xuyên cập nhật kiến thức về ngành thiết kế, tham gia thảo luận các case-study về UI/UX và mở rộng vòng kết nối (networking) cùng các chuyên gia trong ngành.</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
